@@ -32,7 +32,7 @@ ins = InsInfo('your username','yourpassword',nickname='ins-username')
 
 ins.login().export_all()
 ```
-上面代码会shell中提示你没有爬取相关数据以至于没法导出数据，需要输入任意键继续，如果不想在shell中交互，可以提前采集数据：  
+上面代码shell中会提示你没有爬取相关数据以至于没法导出数据，需要输入任意键继续，如果不想在shell中交互，可以提前采集数据：  
 ```
 ins.login().followers().combo().following().export_all()
 ```
@@ -84,7 +84,7 @@ ins.login(anon=True).covers().show_covers_broswer()
 
 ### 自定义类
 
-这里已自定义下载为例
+这里以自定义下载为例
 
 修改 run.py
 ```
