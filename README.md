@@ -1,4 +1,4 @@
-[English](https://note.youdao.com/)
+[English](https://github.com/zengzhengrong/ins-scraping/blob/master/README-English.md)
 
 ## 介绍
 
