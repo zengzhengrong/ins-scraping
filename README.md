@@ -89,6 +89,7 @@ ins.login(anon=True).covers().show_covers_broswer()
 修改 run.py
 ```
 from core.info import InsInfo
+from urllib import request
 
 class MyIns(InsInfo):
 
