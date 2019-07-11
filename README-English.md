@@ -87,6 +87,7 @@ e.g: override ```save```
 run.py
 ```
 from core.info import InsInfo
+from urllib import request
 
 class MyIns(InsInfo):
 
